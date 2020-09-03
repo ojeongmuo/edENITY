@@ -89,13 +89,13 @@ client.on('message', (message) => {
     message.channel.send(embed)
   }
 
-  if(message.content == 'o!토르') {
+  if(message.content == 'o!디바') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
       .setAuthor('디바 트래킹', img, )
-      .addField('```Name Dva```', '```Silent Shot```', true)
+      .addField('```Name Dva```', '```Tracking```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751029974462627912/Orion_.png')
       .setFooter('ORION BOT❤️', img)
