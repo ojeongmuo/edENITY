@@ -103,6 +103,18 @@ client.on('message', (message) => {
   }
   
 
+  if(message.content == 'o!바티') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('바티 트래킹', img, )
+      .addField('```Name Batist```', '```Tracking```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751111959516282970/ad019f29254ea59c.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
   
 
 
@@ -585,7 +597,7 @@ if(message.content == 'o!한조') {
       .addField('```Name Zenyatta```', '```Flick```', true)
       .setAuthor('야타 플릭', img, )
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750670298738589816/2aae81ebc7467370.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751109675134484520/d69b2fb30b9f6f56.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -597,7 +609,7 @@ if(message.content == 'o!한조') {
       .addField('```Name Zenyatta```', '```Silent Shot```', true)
       .setAuthor('야타 유도', img, )
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750670301544579093/092a08a5d9618443.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751110436212179042/2.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -610,7 +622,7 @@ if(message.content == 'o!한조') {
       .addField('```Name Zenyatta```', '```Flick```', true)
       .setAuthor('젠야타 플릭', img, )
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750670298738589816/2aae81ebc7467370.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751109675134484520/d69b2fb30b9f6f56.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -623,7 +635,7 @@ if(message.content == 'o!한조') {
       .addField('```Name Zenyatta```', '```Silent Shot```', true)
       .setAuthor('젠야타 유도', img, )
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750670301544579093/092a08a5d9618443.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751110436212179042/2.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -636,22 +648,36 @@ if(message.content == 'o!한조') {
       .addField('```Name Ana```', '```Flick```', true)
       .setAuthor('아나 플릭', img, )
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750663564523601940/ba66b4d85f23cd3a.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751110607159296000/cd069a19bac8b6a0.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
 
-  if(message.content == 'o!아나') {
+  if(message.content == 'o!브리') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .addField('```Name Ana```', '```Silent Shot```', true)
-      .setAuthor('아나 유도', img, )
+      .addField('```Name Brigitte```', '```Tracking```', true)
+      .setAuthor('브리 트레킹', img, )
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750663691057365062/9e67a1709c283d7e.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751110716420915330/bb2f285e5e278972.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
+
+
+  if(message.content == 'o!브리기테') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .addField('```Name Brigitte```', '```Tracking```', true)
+      .setAuthor('브리기테 트레킹', img, )
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751110716420915330/bb2f285e5e278972.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+  
 
 
 
