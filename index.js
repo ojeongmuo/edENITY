@@ -29,7 +29,18 @@ client.on('message', (message) => {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
-
+if(message.content == 'o!모이라') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('모이라 트레킹', img, )
+      .addField('```Name Moira```', '```Tracking```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751115745462714438/0de8f0d1ca764052.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 
   if(message.content == 'o!겐지') {
