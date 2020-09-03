@@ -111,7 +111,7 @@ client.on('message', (message) => {
       .setAuthor('바티 트래킹', img, )
       .addField('```Name Batist```', '```Tracking```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751111959516282970/ad019f29254ea59c.png')
+      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/751113664806912125/1.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -189,7 +189,6 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
-
       .setAuthor('둠피 유도', img, )
       .addField('```Name Doom```', '```Silent Shot```', true)
       .setThumbnail(img)
@@ -496,6 +495,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Roadhog```', '```Flick```', true)
       .setAuthor('로드호그 플릭', img, )
       .setThumbnail(img)
@@ -508,6 +508,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Roadhog```', '```Silent Shot```', true)
       .setAuthor('로드호그 유도', img, )
       .setThumbnail(img)
@@ -594,6 +595,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Zenyatta```', '```Flick```', true)
       .setAuthor('야타 플릭', img, )
       .setThumbnail(img)
@@ -606,6 +608,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Zenyatta```', '```Silent Shot```', true)
       .setAuthor('야타 유도', img, )
       .setThumbnail(img)
@@ -619,6 +622,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Zenyatta```', '```Flick```', true)
       .setAuthor('젠야타 플릭', img, )
       .setThumbnail(img)
@@ -632,6 +636,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Zenyatta```', '```Silent Shot```', true)
       .setAuthor('젠야타 유도', img, )
       .setThumbnail(img)
@@ -645,6 +650,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Ana```', '```Flick```', true)
       .setAuthor('아나 플릭', img, )
       .setThumbnail(img)
@@ -657,6 +663,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Brigitte```', '```Tracking```', true)
       .setAuthor('브리 트레킹', img, )
       .setThumbnail(img)
@@ -670,6 +677,7 @@ if(message.content == 'o!한조') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .addField('```Name Brigitte```', '```Tracking```', true)
       .setAuthor('브리기테 트레킹', img, )
       .setThumbnail(img)
@@ -897,7 +905,18 @@ if(message.content == 'o!한조') {
   }
 
   
-  
+  if(message.content == 'o!esp') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('예쁜 ESP', img, )
+      .addField('```ESP```', '```Tracking```', true)
+      .setImage('')
+      .setThumbnail(img)
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 
 
@@ -907,7 +926,7 @@ if(message.content == 'o!한조') {
         let commandList = [
           {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
           {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
-          {name: '대기중', desc: '대기중 입니다.'},
+          {name: 'o!esp', desc: '예쁜 esp 입니다.'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
