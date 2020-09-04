@@ -16,6 +16,7 @@ client.on('message', (message) => {
   }
 
 
+
   if(message.content == 'o!값') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
@@ -53,7 +54,18 @@ if(message.content == 'o!모이라') {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
-
+if(message.content == 'o!한국어') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('UI 한국어', img, )
+      .addField('```Name Korea```', '```UI Korea```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/751096436258504774/751271332959879250/7031ab3335468bcd.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
   if(message.content == 'o!겐지') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
