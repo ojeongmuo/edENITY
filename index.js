@@ -933,7 +933,7 @@ if(message.content == 'o!한조') {
         else if(message.content == 'o!help') 
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
-        let commandList = 
+        let commandList = [
           {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
           {name: 'o!한국어', desc: 'UI 번역을 합니다'},
           {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
