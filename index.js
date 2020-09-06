@@ -966,7 +966,7 @@ if(message.content == 'o!한조') {
     message.channel.send(embed)
   }
 
-  if(message.content.startsWith('!전체공지99')) {
+  if(message.content.startsWith('!전체공지')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!전체공지'.length);
