@@ -141,16 +141,6 @@ if(message.content == 'o!한국어') {
 
   
   
-  if(message.content == 'o!튕김 해결법') {
-    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
-    let embed = new Discord.RichEmbed()
-      .setAuthor('튕김 증상 해결법', img, )
-      .addField('```NEW Patch```', '```content```', true)
-      .setThumbnail(img)
-      .addField(' ```비쥬얼부분에서 HUD 중지해주세용!!               항상 전체화면이아니라 테두리없음으로 겜 해주세용             램카드 더 사주세용  ```', '똑같이 따라해주시면 튕김 증상이 없어집니다', true)
-      .setFooter('ORION BOT❤️', img)
-    message.channel.send(embed)
-  }
   
   
   if(message.content == 'o!리퍼') {
@@ -941,14 +931,13 @@ if(message.content == 'o!한조') {
 
 
 
-       else if(message.content == 'o!help') 
+        else if(message.content == 'o!help') 
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
         let commandList = [
-          {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
           {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
-          {name: 'o!한국어', desc: 'UI번역을 해줍니다.'},
-          {name: 'o!esp', desc: '예쁜 esp 입니다.'},
+          {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
+          {name: '대기중', desc: '대기중 입니다.'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
