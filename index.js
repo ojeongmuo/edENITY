@@ -708,11 +708,10 @@ if(message.content == 'o!한조') {
       .setAuthor('맥 플릭', img, )
       .addField('```Name Mac```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184308978155534/73de42ae5a5f9326.png)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184308978155534/73de42ae5a5f9326.png')
       .setFooter('ORION BOT❤️', img)
-    message.channel.send(embed)
-  }
-
+      message.channel.send(embed)
+    }
 
 
 
