@@ -933,10 +933,11 @@ if(message.content == 'o!한조') {
         else if(message.content == 'o!help') 
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
-        let commandList = [
-          {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
+        let commandList = 
           {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
-          {name: '대기중', desc: '대기중 입니다.'},
+          {name: 'o!한국어', desc: 'UI 번역을 합니다'},
+          {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
+          {name: 'o!ESP', desc: '예쁜 ESP를 '},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
@@ -954,7 +955,7 @@ if(message.content == 'o!한조') {
     message.channel.send(embed)
   }
 
-  if(message.content.startsWith('!전체공지')) {
+  if(message.content.startsWith('!전체공지오리온')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!전체공지'.length);
