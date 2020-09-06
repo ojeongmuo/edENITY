@@ -50,7 +50,7 @@ if(message.content == 'o!모이라') {
       .setAuthor('겐지 플릭', img, )
       .addField('```Name Genji```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/750910042353434715/664b106a0820f6fa.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184268301795368/6368a637992a680e.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -354,7 +354,7 @@ if(message.content == 'o!한조') {
       .setAuthor('애쉬 유도', img, )
       .addField('```Name Ash```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750921711117008926/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184339424477214/a3b08ae8dceea80a.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -718,7 +718,7 @@ if(message.content == 'o!한조') {
       .setAuthor('맥 플릭', img, )
       .addField('```Name Mac```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750917327599698111/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184308978155534/73de42ae5a5f9326.png)
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -747,7 +747,7 @@ if(message.content == 'o!한조') {
       .setAuthor('맥크리 플릭', img, )
       .addField('```Name MacCree```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750917327599698111/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184308978155534/73de42ae5a5f9326.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -945,8 +945,9 @@ if(message.content == 'o!한조') {
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
         let commandList = [
-          {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
           {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
+          {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
+          {name: 'o!한국어', desc: 'UI번역을 해줍니다.'},
           {name: 'o!esp', desc: '예쁜 esp 입니다.'},
         ];
     let commandStr = '';
@@ -965,7 +966,7 @@ if(message.content == 'o!한조') {
     message.channel.send(embed)
   }
 
-  if(message.content.startsWith('!전체공지')) {
+  if(message.content.startsWith('!전체공지99')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!전체공지'.length);
