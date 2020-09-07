@@ -330,7 +330,7 @@ if(message.content == 'o!한조') {
       .setAuthor('애쉬 플릭', img, )
       .addField('```Name Ash```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750921714296160256/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184339424477214/a3b08ae8dceea80a.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -344,7 +344,7 @@ if(message.content == 'o!한조') {
       .setAuthor('애쉬 유도', img, )
       .addField('```Name Ash```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752184339424477214/a3b08ae8dceea80a.png')
+      .setImage('https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
