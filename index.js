@@ -344,7 +344,7 @@ if(message.content == 'o!한조') {
       .setAuthor('애쉬 유도', img, )
       .addField('```Name Ash```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750917325011812393/2.PNG')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
