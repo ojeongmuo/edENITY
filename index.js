@@ -803,15 +803,26 @@ if(message.content == 'o!한조') {
   }
 
 
-
-
-
-  if(message.content == 'o!솔') {
+if(message.content == 'o!솔저') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
-      .setAuthor('솔저 트레킹', img, )
+      .setAuthor('솔 트레킹', img, )
+      .addField('```Name Soldier```', '```Tracking```', true)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750918569646096394/1.PNG')
+      .setThumbnail(img)
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+
+  if(message.content == 'o!솔져') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('솔져 트레킹', img, )
       .addField('```Name Soldier```', '```Tracking```', true)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750918569646096394/1.PNG')
       .setThumbnail(img)
