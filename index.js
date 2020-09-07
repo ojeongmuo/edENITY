@@ -41,6 +41,18 @@ if(message.content == 'o!모이라') {
     message.channel.send(embed)
   }
 
+if(message.content == 'k!겐지') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('겐지 우', img, )
+      .addField('```Name Genji```', '```Right```', true)
+      .setThumbnail(img)
+      .setImage('https://media.discordapp.net/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
   if(message.content == 'o!겐지') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
@@ -1004,3 +1016,4 @@ function changeCommandStringLength(str, limitLen = 8) {
 
 
 client.login(token);
+ 
