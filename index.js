@@ -46,6 +46,20 @@ if(message.content == 'k!겐지') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
+      .setAuthor('겐지 좌', img, )
+      .addField('```Name Genji```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752742428729147422/unknown.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+
+if(message.content == 'k!겐지') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
       .setAuthor('겐지 우', img, )
       .addField('```Name Genji```', '```Right```', true)
       .setThumbnail(img)
