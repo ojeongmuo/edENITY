@@ -42,20 +42,20 @@ if(message.content == 'o!모이라') {
   }
 
 if(message.content == 'k!겐지') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('겐지 좌', img, )
       .addField('```Name Genji```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752742428729147422/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
 if(message.content == 'k!맥크리') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752747171241001011/546f671499160a22.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
@@ -63,7 +63,7 @@ if(message.content == 'k!맥크리') {
       .addField('```Name Maccree```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752746525830021180/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
@@ -77,20 +77,20 @@ if(message.content == 'k!맥') {
       .addField('```Name Mac```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752746525830021180/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
 if(message.content == 'k!겐지') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('겐지 우', img, )
       .addField('```Name Genji```', '```Right```', true)
       .setThumbnail(img)
       .setImage('https://media.discordapp.net/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
@@ -98,12 +98,12 @@ if(message.content == 'k!한조') {
     let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('한조 좌', img, )
       .addField('```Name Hanzo```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752744360407466024/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
@@ -112,37 +112,37 @@ if(message.content == 'k!애쉬') {
     let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('애쉬 좌', img, )
       .addField('```Name Ash```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752743167597477888/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 if(message.content == 'k!위도우') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('위도우 좌', img, )
       .addField('```Name Widowmaker```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752743167597477888/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
 if(message.content == 'k!위도') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('위도 좌', img, )
       .addField('```Name Widow```', '```Left```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752743167597477888/unknown.png')
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
 
