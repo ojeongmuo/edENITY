@@ -1043,7 +1043,27 @@ if(message.content == 'o!솔저') {
     message.channel.send(embed)
   }
 
+  else if(message.content == 'k!help') 
+       {
+        let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+        let commandList = [
+          {name: '대기중', desc: '대기중'},
+        ];
+    let commandStr = '';
+    let embed = new Discord.RichEmbed()
+      .setAuthor('ORION BOT HELP USER', helpImg)
+      .setColor('#fff000')
+      .setFooter(`ORION BOT ❤️`)
+      .setTimestamp()
+    
+    commandList.forEach(x => {
+      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
+    });
 
+    embed.addField('Commands: ', commandStr);
+
+    message.channel.send(embed)
+  }
 
         else if(message.content == 'o!help') 
        {
