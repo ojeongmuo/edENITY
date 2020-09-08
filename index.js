@@ -89,7 +89,47 @@ if(message.content == 'k!겐지') {
       .setAuthor('겐지 우', img, )
       .addField('```Name Genji```', '```Right```', true)
       .setThumbnail(img)
-      .setImage('https://media.discordapp.net/attachments/749855561889349692/752549926357041252/cd333477befe285e.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752754823644053604/unknown.png')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!호그') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('호그 좌', img, )
+      .addField('```Name Hog```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752754329752174712/unknown.png')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!호그') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('호그 우', img, )
+      .addField('```Name Hog```', '```Right```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752754388346601492/unknown.png')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+
+if(message.content == 'k!호그') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('호그 그랩', img, )
+      .addField('```Name Hog```', '```Shift```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752754267735195679/unknown.png')
       .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
