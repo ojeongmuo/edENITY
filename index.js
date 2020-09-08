@@ -1126,8 +1126,8 @@ if(message.content == 'o!이스터에그') {
           {name: 'o!(사용할 영웅)', desc: '사용할 영웅 값을 보내줍니다'},
           {name: 'o!한국어', desc: 'UI 번역을 합니다'},
           {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
-          {name: 'o!ESP', desc: '예쁜 ESP를 '},
           {name: 'o!이스터에그', desc: '개발자에 이스터에그'},
+          {name: 'o!ESP', desc: '예쁜 ESP를 '}, 
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
