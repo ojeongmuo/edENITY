@@ -5,7 +5,7 @@ const token = process.env.token;
 
 client.on('ready', () => {
   console.log('켰다.');
-client.user.setPresence({ game: { name: 'o!help' }, status: 'online' })
+client.user.setPresence({ game: { name: 'o!help or k!help' }, status: 'online' })
 });
 
 client.on('message', (message) => {
@@ -54,6 +54,32 @@ if(message.content == 'k!겐지') {
     message.channel.send(embed)
   }
 
+if(message.content == 'k!맥크리') {
+    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752747171241001011/546f671499160a22.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('맥크리 좌', img, )
+      .addField('```Name Maccree```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752746525830021180/unknown.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+
+if(message.content == 'k!맥') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('맥 좌', img, )
+      .addField('```Name Mac```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752746525830021180/unknown.png')
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
 if(message.content == 'k!겐지') {
     let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
