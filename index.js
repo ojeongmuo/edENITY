@@ -1045,15 +1045,15 @@ if(message.content == 'o!솔저') {
 
   else if(message.content == 'k!help') 
        {
-        let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+        let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
         let commandList = [
           {name: '대기중', desc: '대기중'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('ORION BOT HELP USER', helpImg)
-      .setColor('#fff000')
-      .setFooter(`ORION BOT ❤️`)
+      .setAuthor('Kanto BOT HELP USER', helpImg)
+      .setColor('#ff0000')
+      .setFooter(`Kanto BOT ❤️`)
       .setTimestamp()
     
     commandList.forEach(x => {
