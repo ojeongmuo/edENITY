@@ -1071,6 +1071,17 @@ if(message.content == 'o!솔저') {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
+if(message.content == 'o!이스터에그') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('개발자가 숨겨놓은 이스터에그를 찾아보시오', img, )
+      .addField('```이스터에그```', '```찾아보세요```', true)
+      .setThumbnail(img)
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
 
   
   if(message.content == 'o!esp') {
@@ -1090,7 +1101,7 @@ if(message.content == 'o!솔저') {
        {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
         let commandList = [
-          {name: '대기중', desc: '대기중'},
+       {name: 'k!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
@@ -1116,6 +1127,7 @@ if(message.content == 'o!솔저') {
           {name: 'o!한국어', desc: 'UI 번역을 합니다'},
           {name: 'o!값', desc: '쉽게 복붙 할수있습니다'},
           {name: 'o!ESP', desc: '예쁜 ESP를 '},
+          {name: 'o!이스터에그', desc: '개발자에 이스터에그'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
