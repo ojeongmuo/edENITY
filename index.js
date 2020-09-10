@@ -379,7 +379,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('위도우 유도', img, )
       .addField('```Name Widow```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750922029468877041/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624636604022894/ebfc78b1e0196891.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -406,7 +406,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('위도 유도', img, )
       .addField('```Name Widow```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750922029468877041/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624636604022894/ebfc78b1e0196891.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -434,7 +434,7 @@ if(message.content == 'o!한조') {
       .setAuthor('한조 유도', img, )
       .addField('```Name Hanzo```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750924535540482108/1.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753624471021158450/847acba6ac488b1b.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -477,7 +477,7 @@ if(message.content == 'o!한조') {
       .setAuthor('애쉬 플릭', img, )
       .addField('```Name Ash```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753512581465112646/5693c9fc34f5b320.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753623529022292099/2.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -491,7 +491,7 @@ if(message.content == 'o!한조') {
       .setAuthor('애쉬 유도', img, )
       .addField('```Name Ash```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750917325011812393/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753623517291085864/bfaeeed5a155f8fc.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
