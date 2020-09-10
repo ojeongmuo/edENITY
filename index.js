@@ -196,7 +196,7 @@ if(message.content == 'o!겐지') {
       .setAuthor('겐지 플릭', img, )
       .addField('```Name Genji```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/752881666799829182/51176edf7f9941c8.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753625358334558310/dc04ba4650c31b1a.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
