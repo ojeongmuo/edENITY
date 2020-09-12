@@ -54,6 +54,124 @@ if(message.content == 'k!겐지') {
     message.channel.send(embed)
   }
 
+
+if(message.content == 'k!메이') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('메이 좌', img, )
+      .addField('```Name Mei```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754356883992739870/3.png')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!메이') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('메이 우', img, )
+      .addField('```Name Mei```', '```Right```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754357131293229159/4.png')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+if(message.content == 'k!바스') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('바스 좌', img, )
+      .addField('```Name Bas```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754357573477728372/c4976c2b6c313225.PNG')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!바스티온') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('바스티온 좌', img, )
+      .addField('```Name Bastion```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754357573477728372/c4976c2b6c313225.PNG')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!솔저') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('솔저 좌', img, )
+      .addField('```Name Soldier```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754358216229519501/4b3dd8c5191ac219.png')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!솔저') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('솔저 우', img, )
+      .addField('```Name Soldier```', '```Right```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754358776269766797/13e9f6a70a8da89d.PNG')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!리퍼') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('리퍼 좌', img, )
+      .addField('```Name Reaper ```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754356294739034112/047c66e2f4cdabe9.PNG')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!둠피') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('둠피 좌', img, )
+      .addField('```Name Doom```', '```Left```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754356072466350180/1704e880ebe0d7de.PNG')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'k!둠피') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('둠피 우', img, )
+      .addField('```Name Doom```', '```Right```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754355841133707314/4cc75cdf363e385e.PNG')
+      .setFooter('Kanto key = 현재패치중', img)
+    message.channel.send(embed)
+  }
+
+
 if(message.content == 'k!맥크리') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
