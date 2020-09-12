@@ -1100,7 +1100,24 @@ if(message.content == 'o!이스터에그') {
   }
 
 
+  if(message.content == 'k!') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setTitle('d')
+      .setAuthor('d', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
+      .setThumbnail(img)
+      .addBlankField()
+      .addField('Inline field title', 'Some value here')
+      .addField('Inline field title', 'Some value here', true)
+      .addField('Inline field title', 'Some value here', true)
+      .addField('Inline field title', 'Some value here', true)
+      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
+      .addBlankField()
+      .setTimestamp()
+      .setFooter('Kanto BOT❤️', img)
 
+    message.channel.send(embed)
+  }
 
 
   else if(message.content == 'k!help') 
