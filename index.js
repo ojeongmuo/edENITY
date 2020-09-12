@@ -1361,7 +1361,7 @@ if(message.content == 'o!이스터에그') {
       .addBlankField()
 
       .addField('```탱커 대기중```', '```탱커 값 대기중```', true)
-      .addField('```딜러```', '```겐지,맥크리,위도우,한조,애쉬```')
+      .addField('```딜러```', '```모든 딜러 꿀값 완료```')
       .addField('```힐러 대기중```', '```힐러 값 대기중```', true)
       .setFooter('Kanto BOT❤️', img)
 
