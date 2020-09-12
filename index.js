@@ -1054,7 +1054,7 @@ if(message.content == 'o!솔저') {
       .setAuthor('영웅 이름', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
       .setThumbnail(img)
       .addBlankField()
-      .addField('Inline field title', 'Some value here')
+      .addField('diff\겐지 한조 위도우', 'Some value here')
       .addField('Inline field title', 'Some value here', true)
       .addField('Inline field title', 'Some value here', true)
       .addField('Inline field title', 'Some value here', true)
