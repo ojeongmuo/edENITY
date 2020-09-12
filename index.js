@@ -696,7 +696,7 @@ if(message.content == 'o!한조') {
       .setURL('http://www.naver.com')
       .addField('```Name Zarya```', '```Tracking```', true)
       .setColor('#ffff00')
-      .setAuthor('로드호그 트레킹', img, )
+      .setAuthor('자리야 트레킹', img, )
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/749855561889349692/751031682265514024/1.png')
       .setFooter('ORION BOT❤️', img)
