@@ -1055,7 +1055,7 @@ if(message.content == 'o!솔저') {
       .setThumbnail(img)
       .addBlankField()
       .addField('```딜러 영웅 목록```', '```diff
-+겐지 한조 위도우 맥```')
+/+겐지 한조 위도우 맥```')
       .addField('Inline field title', 'Some value here', true)
       .addField('Inline field title', 'Some value here', true)
       .addField('Inline field title', 'Some value here', true)
