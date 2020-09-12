@@ -1103,14 +1103,13 @@ if(message.content == 'o!이스터에그') {
   if(message.content == 'k!영웅 목록') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
-      .setTitle('꿀값 영웅 목록')
-      .setAuthor('Helo Name', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
+      .setTitle('Helo Name')
+      .setAuthor('꿀값 영웅 목록', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
       .setThumbnail(img)
       .addBlankField()
       .addField('```탱커 대기중```', '```값 대기중```', true)
       .addField('```딜러 영웅 목록```', '```겐지,맥크리,위도우,한조```')
       .addField('```힐러```', '```힐러 값 대기중```', true)
-      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')  
       .setFooter('Kanto BOT❤️', img)
 
     message.channel.send(embed)
