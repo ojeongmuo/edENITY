@@ -1103,6 +1103,7 @@ if(message.content == 'o!이스터에그') {
   if(message.content == 'k!영웅 목록') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
+.setColor('#ff0000')
       .setTitle('Helo Name')
       .setAuthor('꿀값 영웅 목록', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
       .setThumbnail(img)
