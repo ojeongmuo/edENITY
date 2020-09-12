@@ -1046,27 +1046,7 @@ if(message.content == 'o!솔저') {
 
   }
  
- if(message.content == 'k!영웅 목록') {
-    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
-    let embed = new Discord.RichEmbed()
-      .setTitle('Hero Name')
-     .setColor('#ff0000')
-      .setAuthor('영웅 이름', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
-      .setThumbnail(img)
-      .addBlankField()
-      .addField('```diff/딜러 영웅 목록```', '```diff/
-+겐지 한조 위도우 맥```')
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
-      .addBlankField()
-      .setTimestamp()
-      .setFooter('Kanto BOT❤️', img)
 
-    message.channel.send(embed)
-  } 
-  
 
   if(message.content == 'o!바스') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
