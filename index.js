@@ -1107,7 +1107,7 @@ if(message.content == 'o!이스터에그') {
       .setAuthor('꿀값 영웅 목록', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
       .setThumbnail(img)
       .addBlankField()
-.addField('Inline field title', 'Some value here')
+.addField('```영웅 목록```', '```Helo List```')
       .addField('```탱커 대기중```', '```값 대기중```', true)
       .addField('```딜러```', '```겐지,맥크리,위도우,한조```')
       .addField('```힐러 대기중```', '```힐러 값 대기중```', true)
