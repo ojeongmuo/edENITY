@@ -135,7 +135,7 @@ if(message.content == 'k!호그') {
   }
 
 if(message.content == 'k!한조') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
@@ -1043,7 +1043,28 @@ if(message.content == 'o!솔저') {
       .setThumbnail(img)
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
+
   }
+ 
+ if(message.content == 'k!영웅 목록') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setTitle('Hero Name')
+     .setColor('#ff0000')
+      .setAuthor('영웅 이름', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
+      .setThumbnail(img)
+      .addBlankField()
+      .addField('Inline field title', 'Some value here')
+      .addField('Inline field title', 'Some value here', true)
+      .addField('Inline field title', 'Some value here', true)
+      .addField('Inline field title', 'Some value here', true)
+      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
+      .addBlankField()
+      .setTimestamp()
+      .setFooter('Kanto BOT❤️', img)
+
+    message.channel.send(embed)
+  } 
   
 
   if(message.content == 'o!바스') {
@@ -1096,6 +1117,10 @@ if(message.content == 'o!이스터에그') {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
+
+
+
+
 
   else if(message.content == 'k!help') 
        {
