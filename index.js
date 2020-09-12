@@ -1337,6 +1337,20 @@ if(message.content == 'o!이스터에그') {
   }
 
 
+ if(message.content == 'k!보조키') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('보조키 번역', img, )
+      .addField('```Mouse Button```', '```Translation```', true)
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754364790587129946/DPI.png')
+      .setThumbnail(img)
+      .setFooter('ORION BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+
   if(message.content == 'k!영웅 목록') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
@@ -1361,6 +1375,7 @@ if(message.content == 'o!이스터에그') {
         let commandList = [
        {name: 'k!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
       {name: 'k!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
+{name: 'k!보조키', desc: '보조키 사진을 '},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
