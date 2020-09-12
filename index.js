@@ -149,7 +149,7 @@ if(message.content == 'k!한조') {
 
 
 if(message.content == 'k!애쉬') {
-    let img = 'https://cdn.discordapp.com/attachments/749855561889349692/752742830430093393/unknown.png';
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
@@ -1110,7 +1110,7 @@ if(message.content == 'o!이스터에그') {
       .addBlankField()
 
       .addField('```탱커 대기중```', '```값 대기중```', true)
-      .addField('```딜러```', '```겐지,맥크리,위도우,한조```')
+      .addField('```딜러```', '```겐지,맥크리,위도우,한조,```')
       .addField('```힐러 대기중```', '```힐러 값 대기중```', true)
       .setFooter('Kanto BOT❤️', img)
 
