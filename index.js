@@ -1054,7 +1054,7 @@ if(message.content == 'o!솔저') {
       .setAuthor('영웅 이름', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
       .setThumbnail(img)
       .addBlankField()
-      .addField('diff\겐지 한조 위도우', 'Some value here')
+      .addField('```diff\겐지 한조 위도우```', '```diff\겐지 한조 위도우 맥```')
       .addField('Inline field title', 'Some value here', true)
       .addField('Inline field title', 'Some value here', true)
       .addField('Inline field title', 'Some value here', true)
@@ -1127,6 +1127,7 @@ if(message.content == 'o!이스터에그') {
         let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
         let commandList = [
        {name: 'k!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
+      {name: 'k!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
