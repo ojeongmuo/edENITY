@@ -602,7 +602,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('위도우 플릭', img, )
       .addField('```Name Widow```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983432962179122/8e936a042b979eba.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754985831717928990/c9dbedd1138c0029.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -630,7 +630,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('위도 플릭', img, )
       .addField('```Name Widow```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983432962179122/8e936a042b979eba.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754985831717928990/c9dbedd1138c0029.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -1346,7 +1346,7 @@ if(message.content == 'o!이스터에그') {
       .addField('```Mouse Button```', '```Translation```', true)
       .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754364790587129946/DPI.png')
       .setThumbnail(img)
-      .setFooter('ORION BOT❤️', img)
+      .setFooter('Kanto BOT❤️', img)
     message.channel.send(embed)
   }
 
