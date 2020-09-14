@@ -405,7 +405,7 @@ if(message.content == 'k!위도우') {
       .setAuthor('위도우 좌', img, )
       .addField('```Name Widowmaker```', '```Left```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752743167597477888/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754979594506862652/2.png')
       .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
@@ -418,7 +418,7 @@ if(message.content == 'k!위도') {
       .setAuthor('위도 좌', img, )
       .addField('```Name Widow```', '```Left```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/752743167597477888/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754979594506862652/2.png')
       .setFooter('Kanto key = 현재패치중', img)
     message.channel.send(embed)
   }
