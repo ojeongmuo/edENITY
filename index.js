@@ -433,7 +433,7 @@ if(message.content == 'o!겐지') {
       .setAuthor('겐지 플릭', img, )
       .addField('```Name Genji```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753625358334558310/dc04ba4650c31b1a.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754982926650966036/6076175114a9e28b.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -459,7 +459,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('겐지 유도', img, )
       .addField('```Name Genji```', '```Silent Shot```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/750187350004596799/750911290133708991/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983363978199061/5b809761145bb018.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -602,7 +602,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('위도우 플릭', img, )
       .addField('```Name Widow```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753512703670091847/7d7ca00ad21d9d36.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983432962179122/8e936a042b979eba.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -630,7 +630,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('위도 플릭', img, )
       .addField('```Name Widow```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/753512703670091847/7d7ca00ad21d9d36.png')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983432962179122/8e936a042b979eba.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
@@ -657,7 +657,7 @@ if(message.content == 'o!한국어') {
       .setAuthor('한조 플릭', img, )
       .addField('```Name Hanzo```', '```Flick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/749855561889349692/750924534567403560/2.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/749845287400636518/754983520908345414/bae9099e3ffd40a0.png')
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
