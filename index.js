@@ -519,25 +519,14 @@ if(message.content == 'ch!겐지') {
       .setURL('http://www.naver.com')
       .setColor('#ffff00')
       .setAuthor('겐지', img, )
-      .addField('```Name Genji```', '```.```', true)
+      .addField('```Name Genji```', '```Good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755760181861941348/e9743acf491b35e1.png')
       .setFooter('CH BOT❤️', img)
     message.channel.send(embed)
   }
 
-if(message.content == 'ch!겐지') {
-    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ffff00')
-      .setAuthor('겐지', img, )
-      .addField('```Name Genji```', '```.```', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755760181861941348/e9743acf491b35e1.png')
-      .setFooter('CH BOT❤️', img)
-    message.channel.send(embed)
-  }
+
 
 if(message.content == 'ch!아나') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
