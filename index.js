@@ -435,6 +435,54 @@ if(message.content == 'ch!자리야') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!자리야') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .setAuthor('스무스 디바',)
+      .addField('```Name Dvi```', '```Good```', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745822981854462007/unknown.png')
+      
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!에코') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .setAuthor('스무스 에코',)
+      .addField('```Name Eco```', '```Good```', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823795784188064/unknown.png')
+      
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!정크렛') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .setAuthor('스무스 정크렛',)
+      .addField('```Name 정크렛```', '```Good```', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
+      
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!젠야타') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .setAuthor('스무스 젠야타',)
+      .addField('```Name Dvi```', '```Good```', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823407073001562/unknown.png')
+      
+    message.channel.send(embed)
+  }
+
 if(message.content == 'ch!맥크리') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
