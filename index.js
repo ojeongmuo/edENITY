@@ -507,6 +507,19 @@ if(message.content == 'ch!맥크리') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!호그') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 호그',)
+      .addField('```Name Hog```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755809671960461432/26a92fe290b3e62a.png')
+      
+    message.channel.send(embed)
+  }
+
 if(message.content == 'ch!맥') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
