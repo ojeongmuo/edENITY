@@ -487,6 +487,32 @@ if(message.content == 'ch!바티') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!루시우') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 루시우',)
+      .addField('```Name 루시우```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823311128297552/unknown.png')
+     
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!둠피') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 둠피',)
+      .addField('```Name Doom```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/721231852039569448/unknown.png')
+     
+    message.channel.send(embed)
+  }
+
 if(message.content == 'ch!바티스트') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
@@ -521,7 +547,7 @@ if(message.content == 'ch!애쉬') {
       .setAuthor('스무스 애쉬' )
       .addField('```Name Ash```', '```.```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759910079430696/f0ed579e92c20010.png')
+      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366427675230309/unknown.png')
       
     message.channel.send(embed)
   }
