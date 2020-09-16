@@ -707,6 +707,19 @@ if(message.content == 'ch!트레') {
       
     message.channel.send(embed)
   }
+if(message.content == 'ch!디바') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 디바',)
+      .addField('```Name ```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745822981854462007/unknown.png')
+      
+    message.channel.send(embed)
+  }
+  
 
 if(message.content == 'ch!트레이서') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
