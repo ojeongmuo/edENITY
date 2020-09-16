@@ -423,8 +423,137 @@ if(message.content == 'k!위도') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!자리야') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('자리야', img, )
+      .addField('```Name 자리야```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
 
-  
+if(message.content == 'ch!맥크리') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('맥', img, )
+      .addField('```Name 맥```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759302291095633/f802a0aa5a355272.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!맥') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('맥', img, )
+      .addField('```Name 맥```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759302291095633/f802a0aa5a355272.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!위도우') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('위도우', img, )
+      .addField('```Name 위도우```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!위도') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('위도', img, )
+      .addField('```Name 위도```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!위도') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('위도', img, )
+      .addField('```Name 위도```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!애쉬') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('애쉬', img, )
+      .addField('```Name Ash```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759910079430696/f0ed579e92c20010.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!겐지') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('겐지', img, )
+      .addField('```Name Genji```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755760181861941348/e9743acf491b35e1.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!겐지') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('겐지', img, )
+      .addField('```Name Genji```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755760181861941348/e9743acf491b35e1.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!아나') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ffff00')
+      .setAuthor('아나', img, )
+      .addField('```Name Ana```', '```.```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755761228940443668/d2e4f82f3771cebb.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+
+
 if(message.content == 'o!겐지') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
     let embed = new Discord.RichEmbed()
@@ -437,6 +566,8 @@ if(message.content == 'o!겐지') {
       .setFooter('ORION BOT❤️', img)
     message.channel.send(embed)
   }
+
+
 
 if(message.content == 'o!한국어') {
     let img = 'https://cdn.discordapp.com/attachments/726255182484209756/749814328735170590/aasdzxc.png';
