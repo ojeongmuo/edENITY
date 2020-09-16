@@ -1731,7 +1731,7 @@ else if(message.content == 'ch!help')
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('Kanto BOT HELP USER', helpImg)
+      .setAuthor('CH BOT HELP USER', helpImg)
       .setColor('#ff0000')
       .setTimestamp()
 
