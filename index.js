@@ -1556,28 +1556,7 @@ if(message.content == 'ch!영웅 목록') {
     message.channel.send(embed)
   }
 
-else if(message.content == 'ch!help') 
-       {
-        let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
-        let commandList = [
-       {name: 'ch!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
-      {name: 'ch!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
-        ];
-    let commandStr = '';
-    let embed = new Discord.RichEmbed()
-      .setAuthor('Kanto BOT HELP USER', helpImg)
-      .setColor('#ff0000')
-      .setFooter(`Kanto BOT ❤️`)
-      .setTimestamp()
-    
-    commandList.forEach(x => {
-      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
-    });
 
-    embed.addField('Commands: ', commandStr);
-
-    message.channel.send(embed)
-  }
 
         else if(message.content == 'o!help') 
        {
