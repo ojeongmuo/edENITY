@@ -427,11 +427,11 @@ if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
-      .setAuthor('자리야')
+      .setAuthor('자리야', img )
       .addField('```Name 자리야```', '```Good```', true)
-      .setThumbnail(img)
+      
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
-      .setFooter('CH BOT❤️', img)
+      .setFooter('CH BOT❤️')
     message.channel.send(embed)
   }
 
