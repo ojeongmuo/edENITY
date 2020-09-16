@@ -427,7 +427,7 @@ if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
-      .setAuthor('스무스 자리야',)
+      .setAuthor('**```fix\n스무스 자리야```**',)
       .addField('```Name 자리야```', '```Good```', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
@@ -1754,7 +1754,7 @@ if(message.content == 'ch!영웅 목록') {
       .addBlankField()
 
       .addField('```탱커 대기중```', '```자리야,호그```', true)
-      .addField('```딜러 대기중```', .,**```fix\n겐지,위도우,애쉬,맥크리,둠대장,포탑,시메,솔저,에코,정크렛,파라,해킹```**')
+      .addField('```딜러```', '**```fix\n겐지,위도우,애쉬,맥크리,둠대장,포탑,시메,솔저,에코,정크렛,파라,해킹```**')
       .addField('```힐러 대기중```', '```아나,바티,루시우,젠야타```', true)
      
 
