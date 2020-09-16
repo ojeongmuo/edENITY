@@ -475,7 +475,7 @@ if(message.content == 'ch!위도우') {
     message.channel.send(embed)
   }
 
-f(message.content == 'ch!바티') {
+if(message.content == 'ch!바티') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -488,7 +488,7 @@ f(message.content == 'ch!바티') {
     message.channel.send(embed)
   }
 
-f(message.content == 'ch!바티스트') {
+if(message.content == 'ch!바티스트') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1510,6 +1510,29 @@ if(message.content == 'o!이스터에그') {
       .addField('```딜러```', '```모든 딜러 꿀값 완료```')
       .addField('```힐러 대기중```', '```힐러 값 대기중```', true)
       .setFooter('Kanto BOT❤️', img)
+
+    message.channel.send(embed)
+  }
+
+else if(message.content == 'ch!help') 
+       {
+        let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+        let commandList = [
+       {name: 'ch!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
+      {name: 'ch!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
+        ];
+    let commandStr = '';
+    let embed = new Discord.RichEmbed()
+      .setAuthor('Kanto BOT HELP USER', helpImg)
+      .setColor('#ff0000')
+      .setFooter(`CH BOT ❤️`)
+      .setTimestamp()
+
+    commandList.forEach(x => {
+      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
+    });
+
+    embed.addField('Commands: ', commandStr);
 
     message.channel.send(embed)
   }
