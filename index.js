@@ -468,7 +468,33 @@ if(message.content == 'ch!위도우') {
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .setAuthor('위도우', img, )
-      .addField('```Name 위도우```', '```.```', true)
+      .addField('```Name Widow```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+f(message.content == 'ch!바티') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('바티', img, )
+      .addField('```Name Baptiste```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
+      .setFooter('CH BOT❤️', img)
+    message.channel.send(embed)
+  }
+
+f(message.content == 'ch!바티스트') {
+    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('바티스트', img, )
+      .addField('```Name Baptiste```', '```good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
       .setFooter('CH BOT❤️', img)
@@ -481,7 +507,7 @@ if(message.content == 'ch!위도') {
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .setAuthor('위도', img, )
-      .addField('```Name 위도```', '```.```', true)
+      .addField('```Name Widow```', '```good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
       .setFooter('CH BOT❤️', img)
@@ -1488,6 +1514,23 @@ if(message.content == 'o!이스터에그') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!영웅 목록') {
+    let img = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+    let embed = new Discord.RichEmbed()
+.setColor('#ff0000')
+.addField('```영웅 목록```', '``Helo List``')
+      .setAuthor('꿀값 영웅 목록', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
+      .setThumbnail(img)
+      .addBlankField()
+
+      .addField('```탱커 대기중```', '```자리야```', true)
+      .addField('```딜러```', '```겐지,위도우,애쉬,맥크리```')
+      .addField('```힐러 대기중```', '```아나```', true)
+      .setFooter('Kanto BOT❤️', img)
+
+    message.channel.send(embed)
+  }
+
 
   else if(message.content == 'k!help') 
        {
@@ -1496,6 +1539,29 @@ if(message.content == 'o!이스터에그') {
        {name: 'k!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
       {name: 'k!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
 {name: 'k!보조키', desc: '보조키 사진을 '},
+        ];
+    let commandStr = '';
+    let embed = new Discord.RichEmbed()
+      .setAuthor('Kanto BOT HELP USER', helpImg)
+      .setColor('#ff0000')
+      .setFooter(`Kanto BOT ❤️`)
+      .setTimestamp()
+    
+    commandList.forEach(x => {
+      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
+    });
+
+    embed.addField('Commands: ', commandStr);
+
+    message.channel.send(embed)
+  }
+
+else if(message.content == 'ch!help') 
+       {
+        let helpImg = 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif';
+        let commandList = [
+       {name: 'ch!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
+      {name: 'ch!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
