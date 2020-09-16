@@ -586,6 +586,52 @@ if(message.content == 'ch!위도') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!파라') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 파라' )
+      .addField('```Name Widow```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825449703112774/unknown.png')
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!솔저') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 솔저' )
+      .addField('```Name 솔저```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825660861415484/unknown.png')
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!솜브라') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 솜브라' )
+      .addField('```Name 솜브라```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825791354339418/unknown.png')
+    message.channel.send(embed)
+  }
+
+  if(message.content == 'ch!토르') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .setAuthor('스무스 토르' )
+      .addField('```Name 토르```', '```good```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825939694419998/unknown.png')
+    message.channel.send(embed)
+  }
 
 if(message.content == 'ch!애쉬') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
