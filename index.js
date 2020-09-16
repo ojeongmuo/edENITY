@@ -443,8 +443,8 @@ if(message.content == 'ch!맥크리') {
       .setAuthor('맥', img, )
       .addField('```Name 맥```', '```.```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759302291095633/f802a0aa5a355272.png')
-      .setFooter('CH BOT❤️', img)
+      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742365462847029248/unknown.png')
+      .setFooter('CH BOT❤️')
     message.channel.send(embed)
   }
 
@@ -456,8 +456,8 @@ if(message.content == 'ch!맥') {
       .setAuthor('맥', img, )
       .addField('```Name 맥```', '```.```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759302291095633/f802a0aa5a355272.png')
-      .setFooter('CH BOT❤️', img)
+      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742365462847029248/unknown.png')
+      .setFooter('CH BOT❤️')
     message.channel.send(embed)
   }
 
@@ -469,8 +469,8 @@ if(message.content == 'ch!위도우') {
       .setAuthor('위도우', img, )
       .addField('```Name Widow```', '```good```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
-      .setFooter('CH BOT❤️', img)
+      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366145100644352/unknown.png')
+      .setFooter('CH BOT❤️')
     message.channel.send(embed)
   }
 
@@ -508,8 +508,8 @@ if(message.content == 'ch!위도') {
       .setAuthor('위도', img, )
       .addField('```Name Widow```', '```good```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
-      .setFooter('CH BOT❤️', img)
+      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366145100644352/unknown.png')
+      .setFooter('CH BOT❤️')
     message.channel.send(embed)
   }
 
