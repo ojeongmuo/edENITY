@@ -427,7 +427,7 @@ if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')      
-      .addField('**```Hero Name```**', '**```fix\nZariya```**', true)
+      .addField('**```Hero Name```**', '**```fix\nZarya```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
       
@@ -441,7 +441,7 @@ if(message.content == 'ch!에코') {
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
       .setAuthor('```스무스 에코```',)
-      .addField('```Name Eco```', '```Good```', true)
+      .addField('```Hero Name```', '**```fix\nEco```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823795784188064/unknown.png')
       
@@ -451,8 +451,7 @@ if(message.content == 'ch!시메') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
-      .setAuthor('스무스 ',)
-      .addField('```Name 시메```', '```Good```', true)
+      .addField('```Hero Name```', '**```fix\nSymmetra```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
       
@@ -463,8 +462,7 @@ if(message.content == 'ch!정크렛') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
-      .setAuthor('스무스 정크렛',)
-      .addField('```Name 정크렛```', '```Good```', true)
+      .addField('```Hero Name```', '**```fix\nJunkrat```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
       
@@ -475,21 +473,32 @@ if(message.content == 'ch!젠야타') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
-      .setAuthor('스무스 젠야타',)
-      .addField('```Name Dvi```', '```Good```', true)
+      .addField('```Hero Name```', '```fix\nZenyatta```', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823407073001562/unknown.png')
+      
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!야타') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '```fix\nZenyatta```', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823407073001562/unknown.png')
       
     message.channel.send(embed)
   }
 
+
+
 if(message.content == 'ch!맥크리') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 맥',)
-      .addField('```Name 맥```', '```.```', true)
+
+      .addField('```Hero Name```', '**```fix\nMercy```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742365462847029248/unknown.png')
       
@@ -501,8 +510,7 @@ if(message.content == 'ch!호그') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 호그',)
-      .addField('```Name Hog```', '```good```', true)
+      .addField('```Hero Name```', '**```fix\nHog```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755809671960461432/26a92fe290b3e62a.png')
       
@@ -514,8 +522,7 @@ if(message.content == 'ch!맥') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 맥',)
-      .addField('```Name 맥```', '```.```', true)
+      .addField('```Hero Name```', '**```fix\nMac```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742365462847029248/unknown.png')
       
@@ -527,8 +534,7 @@ if(message.content == 'ch!위도우') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 위도우',)
-      .addField('```Name Widow```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nWidow```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366145100644352/unknown.png')
       
@@ -540,8 +546,7 @@ if(message.content == 'ch!위도우') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 정크',)
-      .addField('```Name 정크```', '```good```', true)
+      .addField('```Hero Name```', '**```fix\nJunkrat```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
      
@@ -553,8 +558,7 @@ if(message.content == 'ch!바티') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 바티',)
-      .addField('```Name Baptiste```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nBaptiste```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825343855656970/unknown.png')
      
@@ -565,8 +569,7 @@ if(message.content == 'ch!메이') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 메이',)
-      .addField('```Name Mei```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nMei```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823246259060787/unknown.png')
      
@@ -578,8 +581,7 @@ if(message.content == 'ch!루시우') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 루시우',)
-      .addField('```Name 루시우```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nLucio```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823311128297552/unknown.png')
      
@@ -591,8 +593,8 @@ if(message.content == 'ch!둠피') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 둠피',)
-      .addField('```Name Doom```', '```good```', true)
+   
+      .addField('```Hero Name```', '```fix\nDoom```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/721231852039569448/unknown.png')
      
@@ -604,8 +606,7 @@ if(message.content == 'ch!바티스트') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 바티스트',)
-      .addField('```Name Baptiste```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nBaptiste```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823246259060787/unknown.png')
      
@@ -617,8 +618,7 @@ if(message.content == 'ch!위도') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 위도' )
-      .addField('```Name Widow```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nWidow```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366145100644352/unknown.png')
     message.channel.send(embed)
@@ -629,8 +629,7 @@ if(message.content == 'ch!파라') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 파라' )
-      .addField('```Name Widow```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nPara```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825449703112774/unknown.png')
     message.channel.send(embed)
@@ -640,8 +639,7 @@ if(message.content == 'ch!솔저') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 솔저' )
-      .addField('```Name 솔저```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nSoldier 76```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825660861415484/unknown.png')
     message.channel.send(embed)
@@ -676,8 +674,7 @@ if(message.content == 'ch!애쉬') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 애쉬' )
-      .addField('```Name Ash```', '```.```', true)
+      .addField('```Hero Name```', '**```fix\Ash```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366427675230309/unknown.png')
       
@@ -689,7 +686,6 @@ if(message.content == 'ch!한조') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 한조',)
       .addField('```Hero Name```', '**```fix\nHanzo```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742369648493985902/unknown.png')
@@ -702,8 +698,7 @@ if(message.content == 'ch!트레') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 트레',)
-      .addField('```Name Tr```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nTracer```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742368716490145823/unknown.png')
       
@@ -718,7 +713,7 @@ if(message.content == 'ch!트레이서') {
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .setAuthor('스무스 트레이서')
-      .addField('```Name Tr```', '```good```', true)
+      .addField('```Hero Name```', '```fix\nTracer```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742368716490145823/unknown.png')
       
@@ -744,8 +739,7 @@ if(message.content == 'ch!아나') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 아나')
-      .addField('```Name Ana```', '```.```', true)
+      .addField('```Hero Name```', '**```fix\nAna```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755761228940443668/d2e4f82f3771cebb.png')
      
