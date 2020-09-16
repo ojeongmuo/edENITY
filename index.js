@@ -509,7 +509,6 @@ if(message.content == 'ch!위도') {
       .addField('```Name Widow```', '```good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366145100644352/unknown.png')
-      .setFooter('CH BOT❤️')
     message.channel.send(embed)
   }
 
@@ -1547,7 +1546,7 @@ if(message.content == 'ch!영웅 목록') {
       .addField('```탱커 대기중```', '```자리야```', true)
       .addField('```딜러```', '```겐지,위도우,애쉬,맥크리```')
       .addField('```힐러 대기중```', '```아나```', true)
-      .setFooter('Kanto BOT❤️', img)
+     
 
     message.channel.send(embed)
   }
