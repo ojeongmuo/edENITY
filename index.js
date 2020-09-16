@@ -690,7 +690,7 @@ if(message.content == 'ch!한조') {
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
       .setAuthor('스무스 한조',)
-      .addField('```Name Hanzo```', '```good```', true)
+      .addField('```Hero Name```', '**```fix\nHanzo```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742369648493985902/unknown.png')
       
@@ -730,8 +730,7 @@ if(message.content == 'ch!겐지') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 겐지')
-      .addField('```Name Genji```', '```Good```', true)
+      .addField('```Hero Name```', '**```fix\nGenji```**', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366610936823818/unknown.png')
       
