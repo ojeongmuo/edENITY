@@ -505,25 +505,14 @@ if(message.content == 'ch!위도') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('위도', img, )
+      .setAuthor('위도', )
       .addField('```Name Widow```', '```good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366145100644352/unknown.png')
     message.channel.send(embed)
   }
 
-if(message.content == 'ch!위도') {
-    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
-    let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
-      .setColor('#ff0000')
-      .setAuthor('위도', img, )
-      .addField('```Name 위도```', '```.```', true)
-      .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755759550048501760/e651d25c74095527.png')
-      .setFooter('CH BOT❤️', img)
-    message.channel.send(embed)
-  }
+
 if(message.content == 'ch!애쉬') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
