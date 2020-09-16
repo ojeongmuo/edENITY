@@ -427,9 +427,9 @@ if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('자리야', img, )
-      .addField('```Name 자리야```', '```.```', true)
+      .addField('```Name 자리야```', '```Good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
       .setFooter('CH BOT❤️', img)
@@ -440,7 +440,7 @@ if(message.content == 'ch!맥크리') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('맥', img, )
       .addField('```Name 맥```', '```.```', true)
       .setThumbnail(img)
@@ -453,7 +453,7 @@ if(message.content == 'ch!맥') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('맥', img, )
       .addField('```Name 맥```', '```.```', true)
       .setThumbnail(img)
@@ -466,7 +466,7 @@ if(message.content == 'ch!위도우') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('위도우', img, )
       .addField('```Name 위도우```', '```.```', true)
       .setThumbnail(img)
@@ -479,7 +479,7 @@ if(message.content == 'ch!위도') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('위도', img, )
       .addField('```Name 위도```', '```.```', true)
       .setThumbnail(img)
@@ -492,7 +492,7 @@ if(message.content == 'ch!위도') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('위도', img, )
       .addField('```Name 위도```', '```.```', true)
       .setThumbnail(img)
@@ -504,7 +504,7 @@ if(message.content == 'ch!애쉬') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('애쉬', img, )
       .addField('```Name Ash```', '```.```', true)
       .setThumbnail(img)
@@ -517,7 +517,7 @@ if(message.content == 'ch!겐지') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('겐지', img, )
       .addField('```Name Genji```', '```Good```', true)
       .setThumbnail(img)
@@ -532,7 +532,7 @@ if(message.content == 'ch!아나') {
     let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
-      .setColor('#ffff00')
+      .setColor('#ff0000')
       .setAuthor('아나', img, )
       .addField('```Name Ana```', '```.```', true)
       .setThumbnail(img)
