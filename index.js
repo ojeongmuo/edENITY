@@ -426,9 +426,8 @@ if(message.content == 'k!위도') {
 if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
-      .setColor('#ff0000')
-      .setAuthor('```스무스 자리야```',)
-      .addField('```Name 자리야```', '```Good```', true)
+      .setColor('#ff0000')      
+      .addField('**```fix\nName 자리야```**', '**```fix\nNamGood```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
       
