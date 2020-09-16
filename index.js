@@ -458,6 +458,17 @@ if(message.content == 'ch!에코') {
       
     message.channel.send(embed)
   }
+if(message.content == 'ch!시메') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .setAuthor('스무스 ',)
+      .addField('```Name 시메```', '```Good```', true)
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
+      
+    message.channel.send(embed)
+  }
 
 if(message.content == 'ch!정크렛') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
