@@ -424,11 +424,10 @@ if(message.content == 'k!위도') {
   }
 
 if(message.content == 'ch!자리야') {
-    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
-      .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('자리야', img, )
+      .setAuthor('자리야')
       .addField('```Name 자리야```', '```Good```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
@@ -1509,7 +1508,7 @@ if(message.content == 'o!이스터에그') {
       .addField('```탱커 대기중```', '```탱커 값 대기중```', true)
       .addField('```딜러```', '```모든 딜러 꿀값 완료```')
       .addField('```힐러 대기중```', '```힐러 값 대기중```', true)
-      .setFooter('Kanto BOT❤️', img)
+      
 
     message.channel.send(embed)
   }
@@ -1525,7 +1524,6 @@ else if(message.content == 'ch!help')
     let embed = new Discord.RichEmbed()
       .setAuthor('Kanto BOT HELP USER', helpImg)
       .setColor('#ff0000')
-      .setFooter(`CH BOT ❤️`)
       .setTimestamp()
 
     commandList.forEach(x => {
