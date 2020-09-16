@@ -1753,9 +1753,9 @@ if(message.content == 'ch!영웅 목록') {
       .setThumbnail(img)
       .addBlankField()
 
-      .addField('```탱커 대기중```', '```자리야```', true)
-      .addField('```딜러```', '```겐지,위도우,애쉬,맥크리```')
-      .addField('```힐러 대기중```', '```아나```', true)
+      .addField('```탱커 대기중```', '```자리야,호그```', true)
+      .addField('```딜러```', '```겐지,위도우,애쉬,맥크리,둠대장,포탑,시메,솔저,에코,정크렛,파라,```')
+      .addField('```힐러 대기중```', '```아나,바티,루시우```', true)
      
 
     message.channel.send(embed)
