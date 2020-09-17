@@ -1761,7 +1761,7 @@ else if(message.content == 'ch!help')
     let embed = new Discord.RichEmbed()
       .setAuthor('CH BOT HELP USER', helpImg)
       .setColor('#ff0000')
-      .setTimestamp()
+      .setTimestamp(https://cdn.discordapp.com/attachments/755758873335300320/756046133045887027/NaLjY87.png)
 
     commandList.forEach(x => {
       commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
