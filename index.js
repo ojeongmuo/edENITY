@@ -1765,9 +1765,7 @@ else if(message.content == 'ch!help')
       .setColor('#ff0000')
       .setTimestamp()
 
-    commandList.forEach(x => {
-      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
-    });
+  
 
     embed.addField('Commands: ', commandStr);
 
