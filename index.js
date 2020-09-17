@@ -1765,7 +1765,8 @@ else if(message.content == 'ch!help')
       .setColor('#ff0000')
       .setTimestamp()
 
-  
+  commandList.forEach(x => {
+      
 
     embed.addField('Commands: ', commandStr);
 
