@@ -732,9 +732,9 @@ if(message.content == 'ch!애쉬') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .addField('```Hero Name```', '**```fix\Ash```**', true)
+      .addField('```Hero Name```', '**```fix\nAsh```**', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742366427675230309/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756015147293736970/1.png')
       
     message.channel.send(embed)
   }
