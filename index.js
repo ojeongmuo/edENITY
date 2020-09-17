@@ -711,7 +711,6 @@ if(message.content == 'ch!트레이서') {
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
       .setColor('#ff0000')
-      .setAuthor('스무스 트레이서')
       .addField('```Hero Name```', '```fix\nTracer```', true)
       .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/680260392697724943/742368716490145823/unknown.png')
