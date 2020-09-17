@@ -1773,11 +1773,11 @@ else if(message.content == 'ch!help')
   }
 
 if(message.content == 'ch!영웅 목록') {
-    let img = 'https://cdn.discordapp.com/avatars/677970556473311284/a_fb1ded4a17c483fd50262a0531e05b9b.gif?size=512';
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
 .setColor('#ff0000')
 .addField('```영웅 목록```', '``Helo List``')
-      .setAuthor('꿀값 영웅 목록', img, 'https://cdn.discordapp.com/attachments/726255182484209756/733620919565549619/4a8ffeacdbf6488d.gif')
+      
       .setThumbnail(img)
       .addBlankField()
 
