@@ -1767,6 +1767,8 @@ else if(message.content == 'ch!help')
 
   commandList.forEach(x => {
       
+   commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
+    });
 
     embed.addField('Commands: ', commandStr);
 
