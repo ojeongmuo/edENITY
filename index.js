@@ -440,7 +440,6 @@ if(message.content == 'ch!에코') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
-      .setAuthor('```스무스 에코```',)
       .addField('```Hero Name```', '**```fix\nEco```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823795784188064/unknown.png')
@@ -553,6 +552,66 @@ if(message.content == 'ch!위도우') {
     message.channel.send(embed)
   }
 
+ if(message.content == 'ch!디바') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nD.va```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745822981854462007/unknown.png')
+     
+    message.channel.send(embed)
+  }
+
+ if(message.content == 'ch!바스') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nBas```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
+     
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!바스티온') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nBastion```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825054855528451/unknown.png')
+     
+    message.channel.send(embed)
+  }
+if(message.content == 'ch!레킹') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nWrecking Ball```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823916567691305/unknown.png')
+     
+    message.channel.send(embed)
+  }
+
+if(message.content == 'ch!레킹볼') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#ff0000')
+      .addField('```Hero Name```', '**```fix\nWrecking Ball```**', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823916567691305/unknown.png')
+     
+    message.channel.send(embed)
+  }
+
+
 if(message.content == 'ch!바티') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
@@ -583,7 +642,7 @@ if(message.content == 'ch!루시우') {
       .setColor('#ff0000')
       .addField('```Hero Name```', '```fix\nLucio```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745823311128297552/unknown.png')
+      .setImage('https://cdn.discordapp.com/attachments/681471048688074827/745825343855656970/unknown.png')
      
     message.channel.send(embed)
   }
@@ -1722,8 +1781,8 @@ if(message.content == 'ch!영웅 목록') {
       .setThumbnail(img)
       .addBlankField()
 
-      .addField('```탱커 대기중```', '```자리야,호그```', true)
-      .addField('```딜러```', '**```fix\n겐지,위도우,애쉬,맥크리,둠대장,포탑,시메,솔저,에코,정크렛,파라,해킹```**')
+      .addField('```탱커 대기중```', '```자리야,호그,디바,레킹볼```', true)
+      .addField('```딜러```', '**```fix\n겐지,위도우,애쉬,맥크리,둠대장,포탑,시메,솔저,에코,정크렛,파라,해킹,바스```**')
       .addField('```힐러 대기중```', '```아나,바티,루시우,젠야타```', true)
      
 
