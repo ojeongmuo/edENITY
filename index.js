@@ -63,6 +63,20 @@ if(message.content == 'ch!정크렛') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!원격') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .addField('```원격 문의```', '**```fix\n크힛만 원격 문의 부탁해용```**', true)
+  .setThumbnail(img)
+.addField('크힛 제품 원격 입니다.', '원격 문의는 Tㅇm#6666 또는 Prometheus#6962에게 부탁 드립니다.') 
+.addField('원격 하시는 분이 없으면 ', '관리자 또는 부관리자 한테 문의 부탁드립니다.') 
+
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756466685657219132/3.png')
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756466743786078268/4.png')
+    message.channel.send(embed)
+  }
+
 if(message.content == 'ch!젠야타') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
@@ -408,6 +422,8 @@ else if(message.content == 'ch!help')
         let commandList = [
        {name: 'ch!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
       {name: 'ch!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
+      {name: 'ch!원격', desc: '원격 할 상대를 불러옵니다.'},
+
         ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
