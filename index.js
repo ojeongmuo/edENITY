@@ -15,12 +15,6 @@ client.on('message', (message) => {
     return message.reply('o!help 쳐보세요');
   }
 
-client.on('message', (message) => {
-  if(message.author.bot) return;
-
-  if(message.content == 'ping') {
-    return message.reply('pong');
-  }
 
  
 if(message.content == 'ch!자리야') {
