@@ -16,12 +16,7 @@ client.on('message', (message) => {
   }
 
 
-client.on('message', (message) => {
-  if(message.author.bot) return;
 
-  if(message.content == '안녕하세요...') {
-    return message.reply('뭐 홍윤성 씨발');
-  }
  
 if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
