@@ -5,18 +5,18 @@ const token = process.env.token;
 
 client.on('ready', () => {
   console.log('켰다.');
-client.user.setPresence({ game: { name: 'ch!help ' }, status: 'online' })
+client.user.setPresence({ game: { name: 'ch!help' }, status: 'online' })
 });
 
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '사용법') {
-    return message.reply('o!help 쳐보세요');
+  if(message.content == '!사용법') {
+    return message.reply('ch!help 쳐보세요');
   }
 
 
- 
+
 if(message.content == 'ch!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
@@ -62,7 +62,19 @@ if(message.content == 'ch!정크렛') {
     message.channel.send(embed)
   }
 
+if(message.content == 'ch!원격') {
+    let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')
+      .addField('```원격 문의```', '**```fix\n크힛만 원격 문의 부탁해용```**', true)
+  .setThumbnail(img)
+.addField('크힛 제품 원격 입니다.', '원격 문의는 [ 24시간 구매문의 ] 또는 치트닷컴.NET#1998에게 부탁 드립니다.') 
+.addField('관리자가 없으면  ', '직원한테 문의 해주세요.') 
 
+      .setImage('https://cdn.discordapp.com/attachments/757614927489007809/758174954494623764/3.png')
+   
+    message.channel.send(embed)
+  }
 
 if(message.content == 'ch!젠야타') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
@@ -409,7 +421,7 @@ else if(message.content == 'ch!help')
         let commandList = [
        {name: 'ch!(영웅이름)', desc: '입력한 영웅에 값을 불러옵니다'},
       {name: 'ch!영웅 목록', desc: '꿀값 있는 영웅들을 불러옵니다'},
-     
+      {name: 'ch!원격', desc: '원격 할 상대를 불러옵니다.'},
 
         ];
     let commandStr = '';
@@ -448,12 +460,34 @@ if(message.content == 'ch!영웅 목록') {
   }
 
 
- 
 
 
 
-       
 
+  if(message.content.startsWith('!전체공지오리온')) {
+    if(checkPermission(message)) return
+    if(message.member != null) { // 채널에서 공지 쓸 때
+      let contents = message.content.slice('!전체공지'.length);
+      message.member.guild.members.array().forEach(x => {
+        if(x.user.bot) return;
+        x.user.send(`<@${message.author.id}> ${contents}`);
+      });
+  
+      return message.reply('공지를 전송했습니다.');
+    } else {
+      return message.reply('채널에서 실행해주세요.');
+    }
+  }
+});
+
+function checkPermission(message) {
+  if(!message.member.hasPermission("MANAGE_MESSAGES")) {
+    message.channel.send(`<@${message.author.id}> ` + "명령어를 수행할 관리자 권한을 소지하고 있지않습니다.")
+    return true;
+  } else {
+    return false;
+  }
+}
 
 function changeCommandStringLength(str, limitLen = 8) {
   let tmp = str;
