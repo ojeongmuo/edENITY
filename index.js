@@ -5,23 +5,23 @@ const token = process.env.token;
 
 client.on('ready', () => {
   console.log('켰다.');
-client.user.setPresence({ game: { name: 'ch!help' }, status: 'online' })
+client.user.setPresence({ game: { name: 'ed!help' }, status: 'online' })
 });
 
 client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!사용법') {
-    return message.reply('ch!help 쳐보세요');
+    return message.reply('ed!help 쳐보세요');
   }
 
 
 
-if(message.content == 'ch!자리야') {
+if(message.content == 'ed!자리야') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')      
-      .addField('**```Hero Name```**', '**```fix\nZarya```**', true)
+      .addField('**```Hero Name```**', '**```fix\nAshe```**', true)
   .setThumbnail(img)
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/755758893619216515/c89ddb9bde2df3b0.png')
       
@@ -30,7 +30,7 @@ if(message.content == 'ch!자리야') {
 
 
 
-if(message.content == 'ch!에코') {
+if(message.content == 'ed!에코') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
@@ -40,7 +40,7 @@ if(message.content == 'ch!에코') {
       
     message.channel.send(embed)
   }
-if(message.content == 'ch!시메') {
+if(message.content == 'ed!시메') {
     let img = 'https://cdn.discordapp.com/attachments/680260392697724943/742393147719417866/loading.gif';
     let embed = new Discord.RichEmbed()
       .setColor('#ff0000')
