@@ -22,7 +22,7 @@ if(message.content == 's!genji') {
       .setColor('#000000')
       .addField('```Name Genji```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485120479690802/dbde8571eeb86f75.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794574001129127976/Genji1.png')
     
 
     message.channel.send(embed)
@@ -34,7 +34,7 @@ if(message.content == 's!genji') {
       .setColor('#000000')
       .addField('```Name Genji```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485120479690802/dbde8571eeb86f75.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794574001129127976/Genji1.png')
     
 
     message.channel.send(embed)
@@ -299,7 +299,7 @@ if(message.content == 's!soldier') {
       .setURL('http://www.naver.com')
       .setColor('#000000')
       .addField('```Name Soldier```', '```fix\nTracking```', true)
-      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/792261584994828318/08516c344d531e3a.png')
+      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793486296328568842/e5718a97307cb22c.png')
       .setThumbnail(img)
     message.channel.send(embed)
   }
@@ -309,7 +309,7 @@ if(message.content == 's!Soldier') {
       .setURL('http://www.naver.com')
       .setColor('#000000')
       .addField('```Name Soldier```', '```fix\nTracking```', true)
-      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/792261584994828318/08516c344d531e3a.png')
+      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793486296328568842/e5718a97307cb22c.png')
       .setThumbnail(img)
     message.channel.send(embed)
   }
@@ -366,7 +366,7 @@ if(message.content == 's!Soldier') {
     message.channel.send(embed)
   }
 
-  if(message.content.startsWith('!전체공지오리온')) {
+  if(message.content.startsWith('!전체공지ss')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때
       let contents = message.content.slice('!전체공지'.length);
