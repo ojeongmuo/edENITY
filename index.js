@@ -157,7 +157,7 @@ if(message.content == 's!Reaper') {
     
       .addField('```Name Hanzo```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485568129368134/dd73b774a3625fbb.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794592805170446344/hanzo1.png')
 
     message.channel.send(embed)
   }
@@ -171,7 +171,7 @@ if(message.content == 's!Reaper') {
     
       .addField('```Name Hanzo```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485568129368134/dd73b774a3625fbb.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794592805170446344/hanzo1.png')
 
     message.channel.send(embed)
   }
