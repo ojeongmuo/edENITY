@@ -105,12 +105,23 @@ if(message.content == 's!Reaper') {
 
       .addField('```Name Widow```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485473514913812/00af2c2964002145.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794588146473107506/WIDOWMAKER1.png')
 
     message.channel.send(embed)
   }
 
-  
+   if(message.content == 's!widowmaker') {
+    let img = 'https://cdn.discordapp.com/attachments/761869923743825921/793486973448617994/logo.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#000000')
+
+      .addField('```Name Widow```', '```fix\nFlick```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794588146473107506/WIDOWMAKER1.png')
+
+    message.channel.send(embed)
+  }
   
  if(message.content == 's!Widow') {
     let img = 'https://cdn.discordapp.com/attachments/761869923743825921/793486973448617994/logo.gif';
@@ -120,12 +131,23 @@ if(message.content == 's!Reaper') {
 
       .addField('```Name Widow```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485473514913812/00af2c2964002145.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794588146473107506/WIDOWMAKER1.png')
   
     message.channel.send(embed)
   }
 
+ if(message.content == 's!widow') {
+    let img = 'https://cdn.discordapp.com/attachments/761869923743825921/793486973448617994/logo.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#000000')
 
+      .addField('```Name Widow```', '```fix\nFlick```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794588146473107506/WIDOWMAKER1.png')
+  
+    message.channel.send(embed)
+  }
 
  if(message.content == 's!Hanzo') {
     let img = 'https://cdn.discordapp.com/attachments/761869923743825921/793486973448617994/logo.gif';
