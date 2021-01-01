@@ -219,7 +219,7 @@ if(message.content == 's!Ashe') {
       .setColor('#000000')
       .addField('```Name MacCree```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485982565400646/22664bbdade423b9.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794581397511602227/Mccree1.png')
     message.channel.send(embed)
   }
 
@@ -230,7 +230,7 @@ if(message.content == 's!Ashe') {
       .setColor('#000000')
       .addField('```Name MacCree```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485982565400646/22664bbdade423b9.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794581397511602227/Mccree1.png')
     message.channel.send(embed)
   }
 
