@@ -163,7 +163,7 @@ if(message.content == 's!Ashe') {
 
       .addField('```Name Ash```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485658588708884/93aa6611f6c73ae4.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794585347031171082/ashe1.png')
 
     message.channel.send(embed)
   }
@@ -177,7 +177,7 @@ if(message.content == 's!Ashe') {
 
       .addField('```Name Ash```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761869923743825921/793485658588708884/93aa6611f6c73ae4.png')
+      .setImage('https://cdn.discordapp.com/attachments/793488706841346092/794585347031171082/ashe1.png')
 
     message.channel.send(embed)
   }
